@@ -128,6 +128,7 @@ vcpkg_cmake_configure(
         -DwxUSE_LIBWEBP=sys
         -DwxUSE_NANOSVG=sys
         -DwxUSE_GLCANVAS=ON
+        -DwxUSE_EXCEPTIONS=ON
         -DwxUSE_LIBGNOMEVFS=OFF
         -DwxUSE_LIBNOTIFY=OFF
         -DwxUSE_STD_CONTAINERS=${WXWIDGETS_USE_STD_CONTAINERS}
